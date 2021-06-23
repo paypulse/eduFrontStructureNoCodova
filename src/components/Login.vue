@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="login-btn-wrap">
-          <button class="login-btn">Login</button>
+          <button class="login-btn" v-on:click="login">Login</button>
           <a href="#" >Forgot password?</a>
         </div>
       </div>
@@ -33,7 +33,7 @@
 </template>
 
 <script>
-
+/* eslint-disable */
 export default {
   name: 'Login',
   data () {
@@ -43,12 +43,12 @@ export default {
   },
   created () {
   },
-  updated () {
-
-  },
   methods: {
-
+    login: function(){
+        this.$router.push('/mainPage');
+    }
   }
+
 }
 
 </script>

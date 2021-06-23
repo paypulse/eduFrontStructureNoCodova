@@ -5,8 +5,7 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 
-/* eslint-disable */
-import '@/assets/css/main.css';
+import '@/assets/css/main.css'
 
 // eslint-disable-next-line
 Vue.config.productionTip = false

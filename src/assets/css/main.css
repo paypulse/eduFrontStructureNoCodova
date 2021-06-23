@@ -145,3 +145,237 @@
   color: gray;
 
 }
+
+/* 리셋 */
+html, body, div, img{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+#root{
+  position: absolute;
+  width: 1280px;
+  height: 800px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* 이미지 */
+#ans1, #ans2, #ans3{
+  opacity: 0;
+}
+#popup{
+  opacity: 0;
+}
+#page1_img{
+  opacity: 0;
+}
+#page2_img{
+  opacity: 0;
+}
+#page3_img{
+  opacity: 0;
+}
+#page4_img{
+  opacity: 0;
+}
+#page5_img{
+  opacity: 0;
+}
+#page6_img{
+  opacity: 1;
+}
+#page7_img{
+  opacity: 0;
+}
+#next{
+  display: none;
+  top: 325px;
+  left: 1190px;
+}
+#next_arrow{
+  display: none;
+  top: 368px;
+  left: 1230px;
+}
+
+/* 터치 */
+#click_pop{
+  display: none;
+  position: absolute;
+  width: 142px;
+  height: 60px;
+  top: 719px;
+  left: 44px;
+}
+#popClose{
+  z-index:1001;
+  display: none;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 141px;
+  left: 1034px;
+}
+#play_audio{
+  display: none;
+  position: absolute;
+  width: 870px;
+  height: 56px;
+  top: 27px;
+  left: 81px;
+}
+#play_popup{
+  display: none;
+  position: absolute;
+  width: 469px;
+  height: 287px;
+  top: 290px;
+  left: 604px;
+}
+#page1{
+  z-index:1001;
+  position: absolute;
+  width: 50px;
+  height: 56px;
+  top: 720px;
+  left: 868px;
+}
+#page2{
+  z-index:1001;
+  position: absolute;
+  width: 50px;
+  height: 56px;
+  top: 720px;
+  left: 922px;
+}
+#page3{
+  z-index:1001;
+  position: absolute;
+  width: 50px;
+  height: 56px;
+  top: 720px;
+  left: 976px;
+}
+#page4{
+  z-index:1001;
+  position: absolute;
+  width: 50px;
+  height: 56px;
+  top: 720px;
+  left: 1030px;
+}
+#page5{
+  z-index:1001;
+  position: absolute;
+  width: 50px;
+  height: 56px;
+  top: 720px;
+  left: 1084px;
+}
+#page6{
+  z-index:1001;
+  position: absolute;
+  width: 50px;
+  height: 56px;
+  top: 720px;
+  left: 1138px;
+}
+#page7{
+  z-index:1001;
+  position: absolute;
+  width: 50px;
+  height: 56px;
+  top: 720px;
+  left: 1192px;
+}
+#click1{
+  display: none;
+  position: absolute;
+  width: 131px;
+  height: 110px;
+  top: 163px;
+  left: 890px;
+}
+#click2{
+  display: none;
+  position: absolute;
+  width: 131px;
+  height: 110px;
+  top: 163px;
+  left: 1031px;
+}
+#click3{
+  display: none;
+  position: absolute;
+  width: 131px;
+  height: 110px;
+  top: 325px;
+  left: 890px;
+}
+#click4{
+  display: none;
+  position: absolute;
+  width: 131px;
+  height: 110px;
+  top: 325px;
+  left: 1031px;
+}
+#click5{
+  display: none;
+  position: absolute;
+  width: 131px;
+  height: 110px;
+  top: 489px;
+  left: 890px;
+}
+#click6{
+  display: none;
+  position: absolute;
+  width: 131px;
+  height: 110px;
+  top: 489px;
+  left: 1031px;
+}
+#j1{
+  display: none;
+  position: absolute;
+  width: 538px;
+  height: 44px;
+  top: 197px;
+  left: 205px;
+}
+#j2{
+  display: none;
+  position: absolute;
+  width: 644px;
+  height: 44px;
+  top: 359px;
+  left: 153px;
+}
+#j3{
+  display: none;
+  position: absolute;
+  width: 575px;
+  height: 44px;
+  top: 526px;
+  left: 187px;
+}
+
+/* 효과 */
+#star{
+  display: none;
+  position: absolute;
+  width: 1280px;
+  height: 800px;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.3);
+}

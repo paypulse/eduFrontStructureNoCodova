@@ -8,6 +8,7 @@ import studySample from '@/views/studySample'
 
 Vue.use(Router)
 
+
 export default new Router({
   routes: [
     {
@@ -25,5 +26,8 @@ export default new Router({
       name: 'studySample',
       component: studySample
     }
-  ]
+  ],
+  mode: 'hash',
+  base: process.env.BASE_URL
 })
+

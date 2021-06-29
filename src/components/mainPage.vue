@@ -27,6 +27,7 @@ export default {
       //기기 테스트
       let userAgent = navigator.userAgent;
 
+      alert(userAgent);
       //browser 일 경우
       let browser = userAgent.match(/Windows/);
       if(browser){
@@ -36,7 +37,7 @@ export default {
       //ios 일 경우
       let iosV = userAgent.match(/iphon|iPad|iPod/);
       //android 일 경우
-      let androidV = userAgent.match(/android/);
+      let androidV = userAgent.match(/Android/);
       if(androidV){
         alert(androidV);
         if(userAgent.match(/Chrome/)){

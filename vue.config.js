@@ -1,6 +1,6 @@
 module.exports = {
   lintOnSave: false,
-  publicPath: '',
+  publicPath:"/dist/",
   outputDir:'./edu_study_frontend',
   pluginOptions: {
     cordovaPath: 'src-cordova'
